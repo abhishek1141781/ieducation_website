@@ -1,0 +1,65 @@
+
+@media only screen and (max-width: 1100px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 540px;
+
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        height: 75%;
+        max-width: 75%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .mrindia-resp{
+        opacity: 0;
+    }
+    
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .section-left{
+        height: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+        height: 100%;
+        align-items: center;
+        margin: 56px auto;
+    }
+    .paras{
+        padding: 0px;
+    }
+
+    .thumbnail img{
+        width: 70%;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        /* align-items: center; */
+        display: block;
+    }
+
+
+}
